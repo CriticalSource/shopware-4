@@ -1,9 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
     ],
-    "hash": "073c1059eba618e569def415994d6c13",
+    "content-hash": "d6320fa1bb6816c9c5181dc6fc032693",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -74,20 +75,20 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2013-06-16 21:33:03"
+            "time": "2013-06-16T21:33:03+00:00"
         },
         {
             "name": "doctrine/cache",
-            "version": "v1.3.0",
+            "version": "v1.5.4",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/cache.git",
-                "reference": "e16d7adf45664a50fa86f515b6d5e7f670130449"
+                "reference": "47cdc76ceb95cc591d9c79a36dc3794975b5d136"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/cache/zipball/e16d7adf45664a50fa86f515b6d5e7f670130449",
-                "reference": "e16d7adf45664a50fa86f515b6d5e7f670130449",
+                "url": "https://api.github.com/repos/doctrine/cache/zipball/47cdc76ceb95cc591d9c79a36dc3794975b5d136",
+                "reference": "47cdc76ceb95cc591d9c79a36dc3794975b5d136",
                 "shasum": ""
             },
             "require": {
@@ -98,17 +99,18 @@
             },
             "require-dev": {
                 "phpunit/phpunit": ">=3.7",
+                "predis/predis": "~1.0",
                 "satooshi/php-coveralls": "~0.6"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "1.5.x-dev"
                 }
             },
             "autoload": {
-                "psr-0": {
-                    "Doctrine\\Common\\Cache\\": "lib/"
+                "psr-4": {
+                    "Doctrine\\Common\\Cache\\": "lib/Doctrine/Common/Cache"
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -116,16 +118,6 @@
                 "MIT"
             ],
             "authors": [
-                {
-                    "name": "Jonathan Wage",
-                    "email": "jonwage@gmail.com",
-                    "homepage": "http://www.jwage.com/"
-                },
-                {
-                    "name": "Guilherme Blanco",
-                    "email": "guilhermeblanco@gmail.com",
-                    "homepage": "http://www.instaclick.com"
-                },
                 {
                     "name": "Roman Borschel",
                     "email": "roman@code-factory.org"
@@ -135,10 +127,16 @@
                     "email": "kontakt@beberlei.de"
                 },
                 {
+                    "name": "Guilherme Blanco",
+                    "email": "guilhermeblanco@gmail.com"
+                },
+                {
+                    "name": "Jonathan Wage",
+                    "email": "jonwage@gmail.com"
+                },
+                {
                     "name": "Johannes Schmitt",
-                    "email": "schmittjoh@gmail.com",
-                    "homepage": "http://jmsyst.com",
-                    "role": "Developer of wrapped JMSSerializerBundle"
+                    "email": "schmittjoh@gmail.com"
                 }
             ],
             "description": "Caching library offering an object-oriented API for many cache backends",
@@ -147,7 +145,11 @@
                 "cache",
                 "caching"
             ],
-            "time": "2013-10-25 19:04:14"
+            "support": {
+                "issues": "https://github.com/doctrine/cache/issues",
+                "source": "https://github.com/doctrine/cache/tree/1.5.x"
+            },
+            "time": "2015-12-19T05:03:47+00:00"
         },
         {
             "name": "doctrine/collections",
@@ -214,7 +216,7 @@
                 "collections",
                 "iterator"
             ],
-            "time": "2013-03-07 12:15:54"
+            "time": "2013-03-07T12:15:54+00:00"
         },
         {
             "name": "doctrine/common",
@@ -288,7 +290,7 @@
                 "persistence",
                 "spl"
             ],
-            "time": "2013-09-07 10:20:34"
+            "time": "2013-09-07T10:20:34+00:00"
         },
         {
             "name": "doctrine/dbal",
@@ -354,7 +356,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2013-11-12 12:38:28"
+            "time": "2013-11-12T12:38:28+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -417,7 +419,7 @@
                 "singuarlize",
                 "string"
             ],
-            "time": "2013-01-10 21:49:15"
+            "time": "2013-01-10T21:49:15+00:00"
         },
         {
             "name": "doctrine/lexer",
@@ -469,7 +471,7 @@
                 "lexer",
                 "parser"
             ],
-            "time": "2013-01-12 18:59:04"
+            "time": "2013-01-12T18:59:04+00:00"
         },
         {
             "name": "doctrine/orm",
@@ -545,7 +547,7 @@
                 "database",
                 "orm"
             ],
-            "time": "2013-11-12 12:40:13"
+            "time": "2013-11-12T12:40:13+00:00"
         },
         {
             "name": "ircmaxell/password-compat",
@@ -584,7 +586,7 @@
                 "hashing",
                 "password"
             ],
-            "time": "2013-04-30 19:58:08"
+            "time": "2013-04-30T19:58:08+00:00"
         },
         {
             "name": "monolog/monolog",
@@ -646,7 +648,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2013-07-28 22:38:30"
+            "time": "2013-07-28T22:38:30+00:00"
         },
         {
             "name": "psr/log",
@@ -684,7 +686,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2012-12-21 11:40:51"
+            "time": "2012-12-21T11:40:51+00:00"
         },
         {
             "name": "rhumsaa/array_column",
@@ -723,7 +725,7 @@
                 "array_column",
                 "column"
             ],
-            "time": "2013-07-22 16:12:38"
+            "time": "2013-07-22T16:12:38+00:00"
         },
         {
             "name": "symfony/config",
@@ -771,7 +773,7 @@
             ],
             "description": "Symfony Config Component",
             "homepage": "http://symfony.com",
-            "time": "2013-11-26 16:40:27"
+            "time": "2013-11-26T16:40:27+00:00"
         },
         {
             "name": "symfony/console",
@@ -824,7 +826,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2013-11-27 09:10:40"
+            "time": "2013-11-27T09:10:40+00:00"
         },
         {
             "name": "symfony/debug",
@@ -879,7 +881,7 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "http://symfony.com",
-            "time": "2013-12-03 14:52:22"
+            "time": "2013-12-03T14:52:22+00:00"
         },
         {
             "name": "symfony/dependency-injection",
@@ -936,7 +938,7 @@
             ],
             "description": "Symfony DependencyInjection Component",
             "homepage": "http://symfony.com",
-            "time": "2013-12-03 14:52:22"
+            "time": "2013-12-03T14:52:22+00:00"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -990,7 +992,7 @@
             ],
             "description": "Symfony EventDispatcher Component",
             "homepage": "http://symfony.com",
-            "time": "2013-12-03 14:52:22"
+            "time": "2013-12-03T14:52:22+00:00"
         },
         {
             "name": "symfony/filesystem",
@@ -1037,7 +1039,7 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "http://symfony.com",
-            "time": "2013-11-16 15:13:54"
+            "time": "2013-11-16T15:13:54+00:00"
         },
         {
             "name": "symfony/finder",
@@ -1084,7 +1086,7 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "http://symfony.com",
-            "time": "2013-11-26 16:40:27"
+            "time": "2013-11-26T16:40:27+00:00"
         },
         {
             "name": "symfony/http-foundation",
@@ -1134,7 +1136,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "http://symfony.com",
-            "time": "2013-11-28 10:27:26"
+            "time": "2013-11-28T10:27:26+00:00"
         },
         {
             "name": "symfony/http-kernel",
@@ -1205,7 +1207,7 @@
             ],
             "description": "Symfony HttpKernel Component",
             "homepage": "http://symfony.com",
-            "time": "2013-12-03 15:23:03"
+            "time": "2013-12-03T15:23:03+00:00"
         },
         {
             "name": "symfony/property-access",
@@ -1263,7 +1265,7 @@
                 "property path",
                 "reflection"
             ],
-            "time": "2013-11-13 21:30:16"
+            "time": "2013-11-13T21:30:16+00:00"
         },
         {
             "name": "symfony/translation",
@@ -1318,7 +1320,7 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "http://symfony.com",
-            "time": "2013-11-28 10:27:26"
+            "time": "2013-11-28T10:27:26+00:00"
         },
         {
             "name": "symfony/validator",
@@ -1383,7 +1385,7 @@
             ],
             "description": "Symfony Validator Component",
             "homepage": "http://symfony.com",
-            "time": "2013-11-28 10:27:26"
+            "time": "2013-11-28T10:27:26+00:00"
         }
     ],
     "packages-dev": [
@@ -1444,7 +1446,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2013-11-04 08:33:33"
+            "time": "2013-11-04T08:33:33+00:00"
         },
         {
             "name": "phpunit/php-code-coverage",
@@ -1505,7 +1507,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2013-09-10 08:14:32"
+            "time": "2013-09-10T08:14:32+00:00"
         },
         {
             "name": "phpunit/php-file-iterator",
@@ -1550,7 +1552,7 @@
                 "filesystem",
                 "iterator"
             ],
-            "time": "2013-10-10 15:34:57"
+            "time": "2013-10-10T15:34:57+00:00"
         },
         {
             "name": "phpunit/php-text-template",
@@ -1594,7 +1596,7 @@
             "keywords": [
                 "template"
             ],
-            "time": "2012-10-31 18:15:28"
+            "time": "2012-10-31T18:15:28+00:00"
         },
         {
             "name": "phpunit/php-timer",
@@ -1638,7 +1640,7 @@
             "keywords": [
                 "timer"
             ],
-            "time": "2013-08-02 07:42:54"
+            "time": "2013-08-02T07:42:54+00:00"
         },
         {
             "name": "phpunit/php-token-stream",
@@ -1688,7 +1690,7 @@
             "keywords": [
                 "tokenizer"
             ],
-            "time": "2013-09-13 04:58:23"
+            "time": "2013-09-13T04:58:23+00:00"
         },
         {
             "name": "phpunit/phpunit",
@@ -1762,7 +1764,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2013-10-17 07:27:40"
+            "time": "2013-10-17T07:27:40+00:00"
         },
         {
             "name": "phpunit/phpunit-mock-objects",
@@ -1811,7 +1813,7 @@
                 "mock",
                 "xunit"
             ],
-            "time": "2013-01-13 10:24:48"
+            "time": "2013-01-13T10:24:48+00:00"
         },
         {
             "name": "symfony/yaml",
@@ -1858,23 +1860,20 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "http://symfony.com",
-            "time": "2013-11-26 16:40:27"
+            "time": "2013-11-26T16:40:27+00:00"
         }
     ],
-    "aliases": [
-
-    ],
+    "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [
-
-    ],
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
     "platform": {
         "php": ">=5.3.2",
         "ext-curl": "*",
         "ext-mbstring": "*",
         "ext-gd": "*"
     },
-    "platform-dev": [
-
-    ]
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
 }
